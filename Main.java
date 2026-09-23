@@ -31,6 +31,32 @@ Compiler: translates our Java to binary
 
 // line comment *
 
+
+
+
+/*
+
+Primitive Type: storing simple information/data (ex. int x = 5;)
+Object (Reference) Type: storing complex data/objects (ex. Creature cat = new Creature())
+
+Primitive Variable Types to Know:
+1. int: stores integers/positive or negative whole numbers
+2. double: store decimal numbers (ex. double x = 50;)(ex. double y = 4.25;)
+3. boolean: stores logic (only two options are True or False)
+
+Object Variable Type to Know:
+1. String: stores text (ex. "5.0", "Hello World!")
+
+
+Setting Up Variables In Code:
+1. Declare Variable --> int x; String name;
+2. Assign Variable --> x = 5; name = "Ms. Dinko"
+
+
+
+Or Do it in One Step!
+3. Initialize Variable --> int x = 5; String name = "Ms. Dinko"
+*/
 public class Main {
 
    public static void main(String []args) {
