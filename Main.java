@@ -56,14 +56,45 @@ Setting Up Variables In Code:
 
 Or Do it in One Step!
 3. Initialize Variable --> int x = 5; String name = "Ms. Dinko"
+
 */
+
 public class Main {
 
    public static void main(String []args) {
       System.out.println("Hi there!");
       System.out.println("Hi there!");
       System.out.println("It makes no sense to divide a number by zero!");
-      System.out.println(3/0);
+         // declare a variable
+      double myGradeAverage;
+       // assign a value
+      myGradeAverage = 95.0;
+      // initialize a variable --> declare and assign in one statement
+      double myDreamGrade = 100;
+
+      // we can format strings using concatenation
+      System.out.println("My current grade is: " + myGradeAverage);
+      // print statement for ideal grade 
+      System.out.println("My ideal grade is: " + myDreamGrade);
+      System.out.print("Hi ");
+      System.out.print("there");
+      System.out.print("!");
+      // printing a quote using an escape sequence
+      // escape sequences always use a \
+      // \n gives a new line
+      // we use \\ to actually print one
+      System.out.println("My teacher \\always says,\n\"Study for your test!\"");
+      System.out.println("My teacher \\always says, \n\"Study for your test!\". I listened and got a " + myDreamGrade);
+
+      // arithmetic operations (+ - * /)
+      // working with only ints, output will be int
+      // int / int does TRUNCATING DIVISION removes the decimal,does not round 
+      System.out.println(5 * 10);
+      // if we want to divide and get a decimal, we need to divide with a double
+      System.out.println(19/10.0);
+      System.out.println(10 + 12.0);
+      // % gives us the remainder
+      System.out.println(12%10);
 
 
    }
