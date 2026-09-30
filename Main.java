@@ -62,7 +62,7 @@ Or Do it in One Step!
 public class Main {
 
    public static void main(String []args) {
-      System.out.println("Hi there!");
+      /* System.out.println("Hi there!");
       System.out.println("Hi there!");
       System.out.println("It makes no sense to divide a number by zero!");
          // declare a variable
@@ -89,13 +89,25 @@ public class Main {
       // arithmetic operations (+ - * /)
       // working with only ints, output will be int
       // int / int does TRUNCATING DIVISION removes the decimal,does not round 
-      System.out.println(5 * 10);
+     // System.out.println(5 * 10);
       // if we want to divide and get a decimal, we need to divide with a double
-      System.out.println(19/10.0);
-      System.out.println(10 + 12.0);
+      // System.out.println(19/10.0);
+     // System.out.println(10 + 12.0);
       // % gives us the remainder
-      System.out.println(12%10);
+     // System.out.println(12%10); 
+ */
 
+      int myNum = 7;
+      int newNum = myNum; 
+      newNum = 8;
+
+     
+      // incrementing variable
+      myNum = myNum + 1;
+      myNum = myNum + 1;
+      myNum++;
+      System.out.println(myNum);
+      System.out.println(newNum);
 
    }
 }
