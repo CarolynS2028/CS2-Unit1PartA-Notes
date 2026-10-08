@@ -146,7 +146,7 @@ public class Main {
  System.out.println(average);
 
 // Lesson 1.6 Compound Assignment Operators
-// compound assignment ioerators always have the math symbol first, and then the equal sign
+// compound assignment operators always have the math symbol first, and then the equal sign
       average = average + 1;
       average =+ 1;
       System.out.println(average);
@@ -175,7 +175,7 @@ System.out.println(score); // 0
 // 2) Divide score by 2 using a compound operator
  score /= 2;
 
-
+// Attribues/fields
 
    }
 }
