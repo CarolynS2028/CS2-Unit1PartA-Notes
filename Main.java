@@ -177,5 +177,13 @@ System.out.println(score); // 0
 
 // Attribues/fields
 
+/*
+Precondition: before the method runs
+what must come true
+
+Postcondtition: after method  runs
+whatmust be true
+*/
+
    }
 }
